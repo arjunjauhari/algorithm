@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=N
+comment0.target=Percolation(int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Percolation\n
+comment1.params=i\ j
+comment1.target=void\ open(int,\ int)
+comment2.params=i\ j
+comment2.target=int\ getidx(int,\ int)
+comment3.params=i\ j
+comment3.target=boolean\ isOpen(int,\ int)
+comment4.params=i\ j
+comment4.target=boolean\ isFull(int,\ int)
+comment5.params=
+comment5.target=boolean\ percolates()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

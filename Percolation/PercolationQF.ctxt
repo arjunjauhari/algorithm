@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=N
-comment0.target=Percolation(int)
+comment0.target=PercolationQF(int)
 comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Percolation\n
 comment1.params=i\ j
 comment1.target=void\ open(int,\ int)

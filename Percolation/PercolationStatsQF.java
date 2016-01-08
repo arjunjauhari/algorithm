@@ -65,7 +65,7 @@ public class PercolationStatsQF
     public static void main(String[] args)    // test client (described below)
     {
         Stopwatch sw = new Stopwatch();
-        PercolationStats perStats = new PercolationStats(Integer.parseInt(args[0]),Integer.parseInt(args[1]));
+        PercolationStatsQF perStats = new PercolationStatsQF(Integer.parseInt(args[0]),Integer.parseInt(args[1]));
         System.out.printf("%-23s = %f%n","Elapsed Time",sw.elapsedTime());
         System.out.printf("%-23s = %f%n","mean",perStats.mean());
         System.out.printf("%-23s = %f%n","stddev",perStats.stddev());

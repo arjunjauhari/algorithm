@@ -5,7 +5,9 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
+import java.util.Iterator;
 public class Deque<Item> implements Iterable<Item>
+//public class Deque<Item>
 {
     // instance variables - replace the example below with your own
     private Node front, back;
@@ -95,5 +97,30 @@ public class Deque<Item> implements Iterable<Item>
         return item;
     }
 
+    public Iterator<Item> iterator()
+    {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item>
+    {
+        private Node current = front;
+        public boolean hasNext()
+        {
+            return current != sentinel;
+        }
+        public void remove()
+        {
+            throw new UnsupportedOperationException();
+        }
+
+        public Item next()
+        {
+            if (!hasNext()) throw new java.util.NoSuchElementException();
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
 
 }

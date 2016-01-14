@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=p\ q
+comment0.target=LineSegment(Point,\ Point)
+comment0.text=\n\ Initializes\ a\ new\ line\ segment.\n\n\ @param\ \ p\ one\ endpoint\n\ @param\ \ q\ the\ other\ endpoint\n\ @throws\ NullPointerException\ if\ either\ <tt>p</tt>\ or\ <tt>q</tt>\n\ \ \ \ \ \ \ \ \ is\ <tt>null</tt>\n
+comment1.params=
+comment1.target=void\ draw()
+comment1.text=\n\ Draws\ this\ line\ segment\ to\ standard\ draw.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Returns\ a\ string\ representation\ of\ this\ line\ segment\n\ This\ method\ is\ provide\ for\ debugging;\n\ your\ program\ should\ not\ rely\ on\ the\ format\ of\ the\ string\ representation.\n\n\ @return\ a\ string\ representation\ of\ this\ line\ segment\n
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\n\ Throws\ an\ exception\ if\ called.\ The\ hashCode()\ method\ is\ not\ supported\ because\n\ hashing\ has\ not\ yet\ been\ introduced\ in\ this\ course.\ Moreover,\ hashing\ does\ not\n\ typically\ lead\ to\ good\ *worst-case*\ performance\ guarantees,\ as\ required\ on\ this\n\ asssignment.\n\n\ @throws\ UnsupportedOperationException\ if\ called\n
+numComments=4

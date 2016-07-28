@@ -1,42 +1,42 @@
 # Java implementation of below mentioned projects
 ## Code in the files mentioned under heading Code: is my work
 
-###PA-1 Percolation (Union-find)
+###PA-1 [Percolation](http://coursera.cs.princeton.edu/algs4/assignments/percolation.html) (Union-find)
 
-    Specification:
-        http://coursera.cs.princeton.edu/algs4/assignments/percolation.html
+    Folder:
+        Percolation
     Code:
         Percolation.java
         PercolationQF.java (Extra Quick Find based implementation to compare performance)
         PercolationStats.java
-###PA-2 Randomized Queues and Deques (Queue and Stack)
+###PA-2 [Randomized Queues and Deques](http://coursera.cs.princeton.edu/algs4/assignments/queues.html) (Queue and Stack)
 
-    Specification:
-        http://coursera.cs.princeton.edu/algs4/assignments/queues.html
+    Folder:
+        Queues
     Code:
         Deque.java
         RandomizedQueue.java
         Subset.java
         TestDeque.java
-###PA-3 Pattern Recognition (Sort)
+###PA-3 [Pattern Recognition](http://coursera.cs.princeton.edu/algs4/assignments/collinear.html) (Sort)
 
-    Specification:
-        http://coursera.cs.princeton.edu/algs4/assignments/collinear.html
+    Folder:
+        Collinear
     Code:
         Point.java (Implemented all methods except constructor, draw(), drawTo(), and toString() methods)
         BruteCollinearPoints.java
         FastCollinearPoints.java
-###PA-4 8 Puzzle (Priority Queues)
+###PA-4 [8 Puzzle](http://coursera.cs.princeton.edu/algs4/assignments/8puzzle.html) (Priority Queues)
 
-    Specification:
-        http://coursera.cs.princeton.edu/algs4/assignments/8puzzle.html
+    Folder:
+        8puzzle
     Code:
         Board.java
         Solver.java
-###PA-5 Kd-Tree (Balanced Search Trees)
+###PA-5 [Kd-Tree](http://coursera.cs.princeton.edu/algs4/assignments/kdtree.html) (Balanced Search Trees)
 
-    Specification:
-        http://coursera.cs.princeton.edu/algs4/assignments/kdtree.html
+    Folder:
+        kdtree
     Code:
         PointSET.java
         KdTree.java

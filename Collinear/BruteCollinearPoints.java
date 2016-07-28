@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class BruteCollinearPoints here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import java.util.Arrays;
 import edu.princeton.cs.algs4.StdDraw;

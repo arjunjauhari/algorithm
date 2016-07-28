@@ -1,8 +1,8 @@
 /**
  * Write a description of class Deque here.
- * 
- * @author (Arjun Jauhari) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import java.util.Iterator;
 public class Deque<Item> implements Iterable<Item>
@@ -46,7 +46,7 @@ public class Deque<Item> implements Iterable<Item>
 
     public void addFirst(Item item)
     {
-        if (item == null) throw new 
+        if (item == null) throw new
             java.lang.NullPointerException("Cant insert null");
         Node oldFront = front;
         front = new Node();     // new node
@@ -60,7 +60,7 @@ public class Deque<Item> implements Iterable<Item>
 
     public void addLast(Item item)
     {
-        if (item == null) throw new 
+        if (item == null) throw new
             java.lang.NullPointerException("Cant insert null");
         Node oldBack = back;
         back = new Node();      // new node
@@ -74,7 +74,7 @@ public class Deque<Item> implements Iterable<Item>
 
     public Item removeFirst()
     {
-        if (isEmpty()) throw new 
+        if (isEmpty()) throw new
             java.util.NoSuchElementException("Deque underflow");
         Item item = front.item;
         front = front.next;
@@ -86,7 +86,7 @@ public class Deque<Item> implements Iterable<Item>
 
     public Item removeLast()
     {
-        if (isEmpty()) throw new 
+        if (isEmpty()) throw new
             java.util.NoSuchElementException("Deque underflow");
         Item item = back.item;
         back = back.prev;

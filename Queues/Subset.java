@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class Subset here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import edu.princeton.cs.algs4.StdIn;
 public class Subset

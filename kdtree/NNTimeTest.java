@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class NNTimeTest here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Point2D;
@@ -42,7 +42,7 @@ public class NNTimeTest
             brute.nearest(p);
         }
         long endTimeBrute = System.nanoTime();
-        
+
         double kdTime= (endTimekd - startTime)/1000000;
         double bruteTime= (endTimeBrute - endTimekd)/1000000;
         System.out.println("KD Time: " + kdTime + "ms");

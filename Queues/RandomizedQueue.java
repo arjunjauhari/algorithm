@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class RandomizedQueue here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import java.util.Arrays;
 import edu.princeton.cs.algs4.StdRandom;
@@ -33,7 +33,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
     }
 
     public void enqueue(Item item) {
-        if (item == null) throw new 
+        if (item == null) throw new
             java.lang.NullPointerException("Cant insert null");
         if (N == x.length) resize(2 * x.length);
         x[N++] = item;
@@ -45,7 +45,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
     }
 
     public Item dequeue() {
-        if (isEmpty()) throw new 
+        if (isEmpty()) throw new
             java.util.NoSuchElementException("Queue underflow");
         int rand = StdRandom.uniform(N);   // generated random number between 0 and N-1
         Item item = x[rand];
@@ -56,7 +56,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
     }
 
     public Item sample() {
-        if (isEmpty()) throw new 
+        if (isEmpty()) throw new
             java.util.NoSuchElementException("Queue underflow");
         return x[StdRandom.uniform(N)];
     }

@@ -3,7 +3,7 @@
  * Write a description of class Solver here.
  *
  * @author (Arjun Jauhari)
- * @version (a version number or a date)
+ * @version (1.0)
  */
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.MinPQ;

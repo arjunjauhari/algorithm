@@ -1,9 +1,9 @@
 
 /**
  * Write a description of class PointSET here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author (Arjun Jauhari)
+ * @version (1.0)
  */
 import java.util.TreeSet;
 import edu.princeton.cs.algs4.StdDraw;
@@ -55,8 +55,8 @@ public class KdTree
 
     /**
      * To get the size of the tree
-     * 
-     * @return size of the tree 
+     *
+     * @return size of the tree
      */
     public int size() {
         return size(root);
@@ -69,7 +69,7 @@ public class KdTree
 
     /**
      * To insert a point
-     * 
+     *
      * @param  p   point to be inserted
      */
     public void insert(Point2D p) {
@@ -114,7 +114,7 @@ public class KdTree
 
     /**
      * To check if point is already present in the tree
-     * 
+     *
      * @param  p   point to be checked
      * @return     true if point is present otherwise false
      */
@@ -177,7 +177,7 @@ public class KdTree
 
     /**
      * all points that are inside the rectangle
-     * 
+     *
      * @param  rect   rectangle within which points need to be searched
      * @return        Iterable on the points inside the rectangle
      */
@@ -201,15 +201,15 @@ public class KdTree
         if (rect.contains(root.p)) subset.add(root.p);
 
         // search both childs
-        search(subset, root.lb, rect); 
-        search(subset, root.rt, rect); 
+        search(subset, root.lb, rect);
+        search(subset, root.rt, rect);
     }
 
     /**
      * a nearest neighbour in the set to point p; null if the set is empty
-     * 
+     *
      * @param  p   point to which nearest neighbour is to be searched
-     * @return     nearest neighbour 
+     * @return     nearest neighbour
      */
     public Point2D nearest(Point2D p) {
         if (p == null) throw new java.lang.NullPointerException();
@@ -219,7 +219,7 @@ public class KdTree
     }
 
     private Point2D nearest(Node root, Point2D query, Point2D champ) {
-        
+
         double minDist;
 
         if (champ == null) {

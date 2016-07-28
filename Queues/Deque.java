@@ -1,8 +1,7 @@
-
 /**
  * Write a description of class Deque here.
  * 
- * @author (your name) 
+ * @author (Arjun Jauhari) 
  * @version (a version number or a date)
  */
 import java.util.Iterator;
